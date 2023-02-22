@@ -16,10 +16,10 @@ export const SkillsList = () => {
       </div>
       <div className={s.container}>
         {skills.map((s, i) => {
-          const image: string | null = null
+          let image: string | null = null
           for (const element of stack) {
             if (element.title === s.title) {
-              
+              image = element.img
               break
             }
           }

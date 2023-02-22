@@ -43,7 +43,7 @@
     font-size: clamp(3rem, 5vw, 3.5rem);
     font-weight: 600;
   }
-  .welcomeRu h1, h2 {
+  .welcomeTr h1, h2 {
     line-height: 3.2rem;
     white-space: pre-wrap;
     font-size: clamp(2rem, 2.5vw, 3rem);
@@ -64,19 +64,14 @@
     max-width: 50ch;
   }
   
-  .photo {
-    color: var(--text-color);
-    width: clamp(368px, 34vw, 420px);
-  }
+ 
   
   .blob {
     width: 200px;
     fill: var(--primary-color);
   }
   
-  .profilePicture {
-    width: 170px;
-  }
+ 
   
   @media only screen and (max-width: 1200px) {
     .welcome > h1, h2 {
