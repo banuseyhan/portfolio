@@ -1,0 +1,36 @@
+.mobileMenu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    z-index: 100;
+    transition: var(--transition);
+  }
+  .btnWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .title {
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .menuBtn {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+    border-radius: var(--radius);
+    background-color: var(--bg-color);
+    transition: var(--transition);
+  }
+  

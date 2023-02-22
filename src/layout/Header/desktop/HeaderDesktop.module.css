@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    transition: var(--transition);
+  }
+  .small {
+    height: 60px;
+  }
+  .menuBtn {
+    display: none;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    gap: 20px;
+    fill: var(--primary-color);
+    position: fixed;
+    left: 10%;
+    bottom: 20px;
+    opacity: 0.8;
+    transition: var(--transition);
+  }
+  .links:after {
+    z-index: -1;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    content: '';
+    width: 1px;
+    height: 156%;
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    transform: translateX(-1px);
+  }
+  .links a {
+    display: grid;
+    place-content: center;
+    background: var(--bg-color);
+    transition: var(--transition);
+  }
+  .links a:hover {
+    transform: scale(1.1);
+  }
