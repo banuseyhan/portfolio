@@ -1,6 +1,6 @@
 export const header = {
     en: {
-      name: 'Demid',
+      name: 'Banu Seyhan',
       menu: 'menu',
     },
     tr: {
