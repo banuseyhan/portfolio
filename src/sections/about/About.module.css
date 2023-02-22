@@ -25,16 +25,7 @@
     user-select: none;
     margin-top: 20px;
   }
-  
-  .picture {
-    color: var(--text-color);
-    min-width: 340px;
-    height: min-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
   
   .blob {
     border-radius: 41% 59% 50% 50% / 33% 45% 55% 67%;

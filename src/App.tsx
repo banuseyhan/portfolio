@@ -3,7 +3,6 @@ import './App.css'
 import { Main } from './sections/main/Main'
 import { localeT, ThemeContext } from './utilities/Context'
 import { SkillsList } from './sections/skills/SkillsList'
-
 import { Remote } from './sections/remote/Remote'
 import { Contact } from './sections/contact/Contact'
 import useWindowDimensions from './utilities/useWindowDimensions'
@@ -41,7 +40,6 @@ function App() {
             <Main isLoaded />
             <About />
             <SkillsList />
-
             <Remote />
             <Contact />
           </ContentContainer>
