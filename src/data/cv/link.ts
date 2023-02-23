@@ -1,1 +1,1 @@
-export const cvLink = '    https://drive.google.com/file/d/1xiSxIeJY7QMLrIg9TxyA47vmMn7dubsA/view?usp=share_link'
+export const cvLink = '    https://drive.google.com/file/d/1RpB2iLjfCKuygiNLk40snmntiJyAoYtf/view?usp=share_link'
