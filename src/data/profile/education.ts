@@ -3,7 +3,7 @@ import { ExperienceType } from "./type";
 export const education: ExperienceType[] = [
   {
     title: '💻 Learning ReactNative/React',
-    description: 'Sodtware Developer',
+    description: 'Software Developer',
     dates: '2022'
   },
   {

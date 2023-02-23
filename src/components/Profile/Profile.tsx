@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import s from './Profile.module.css'
-
-import { introduction} from "../../data"
+import { Experience } from '../WorkExperience/Experience'
+import { introduction } from '../../data'
+import { education } from "../../data/profile/education"
+import {work} from "../../data/profile/work"
 
 interface Ingredient {
   icon: string
@@ -44,7 +46,8 @@ export const Profile = () => {
             transition={{ duration: 0.2 }}
           >
             {selectedTab.label === 'General' && <p>{introduction}</p>}
-            
+            {selectedTab.label === 'Work' && <Experience items={work} />}
+            {selectedTab.label === 'Education' && <Experience items={education} />}
            
           </motion.div>
         </AnimatePresence>
